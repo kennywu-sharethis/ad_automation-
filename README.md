@@ -8,3 +8,4 @@ Pipeline process -
 3) Extracted data is sent to extracted data folder
 4) Data is cleaned and aggregated and sent to processed_data folder as "processed.csv" 
 
+Delete Placeholder.txt files in extracted_data/data folders - only theres to support empty folders on github
