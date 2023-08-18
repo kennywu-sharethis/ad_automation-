@@ -4,8 +4,6 @@ import os
 def split_file(file_path_in: str, directory_output: str, chunk_size: int = 30000):
     chunks = pd.read_csv(file_path_in, chunksize=chunk_size)
     for i, chunk in enumerate(chunks):
-        if i == 21:
-            break
         chunk.to_csv(os.path.join(directory_output, f'sharethis_domains_{i}.csv'), index=False)
 
 def process_extracted_data(folder_path_in: str, folder_path_out, filename: str):
