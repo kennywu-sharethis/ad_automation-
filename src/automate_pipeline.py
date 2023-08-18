@@ -3,8 +3,8 @@ from src.util.download_util import num_files
 from src.extraction.extract import extract
 from src.util.process_data_util import process_extracted_data, split_file
 
-username = "xiaofeng@sharethis.com"
-password = "a85beacf"
+username = ""
+password = ""
 RAW_DATA_PATH = "/Users/kennywu/Documents/adsupport_pipeline/raw_domains/sharethis-domains-0813.csv"
 SPLIT_DATA_DIRECTORY = "/Users/kennywu/Documents/adsupport_pipeline/data"
 EXTRACT_DIRECTORY = "/Users/kennywu/Documents/adsupport_pipeline/extracted_data/" #publicwww downloads go here
